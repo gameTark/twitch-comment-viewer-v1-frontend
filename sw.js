@@ -1,1 +1,1 @@
-self.addEventListener("install",async e=>{console.log("Service worker installed (cjs)")}),self.addEventListener("fetch",e=>{}),self.addEventListener("error",e=>{console.error("Service worker error",e)});
+console.log("register worker");
